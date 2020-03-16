@@ -147,6 +147,7 @@ determining that location is as follows:
 | usage\_bucket\_name | Name of a GCS bucket to store GCE usage reports in (optional) | string | `""` | no |
 | usage\_bucket\_prefix | Prefix in the GCS bucket to store GCE usage reports in (optional) | string | `""` | no |
 | use\_tf\_google\_credentials\_env\_var | Use GOOGLE_CREDENTIALS environment variable to run gcloud auth activate-service-account with. | bool | `"false"` | no |
+| skip\_gcloud\_download | Whether to skip downloading gcloud (assumes gcloud is already available outside the module) | bool | `"false"` | no |
 
 ## Outputs
 
